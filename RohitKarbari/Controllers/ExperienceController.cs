@@ -9,7 +9,7 @@ namespace RohitKarbari.Controllers
     public class ExperienceController : Controller
     {
         // GET: Experienced
-        public ActionResult Index()
+        public ActionResult Experience()
         {
             ViewBag.React = "React Js";
             ViewBag.Html = "Html";

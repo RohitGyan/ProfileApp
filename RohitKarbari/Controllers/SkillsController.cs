@@ -9,7 +9,7 @@ namespace RohitKarbari.Controllers
     public class SkillsController : Controller
     {
         // GET: Skills
-        public ActionResult Index()
+        public ActionResult Skills()
         {
 
             ViewBag.React = "React Js";

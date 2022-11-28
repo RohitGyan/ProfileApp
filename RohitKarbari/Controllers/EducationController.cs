@@ -9,9 +9,12 @@ namespace RohitKarbari.Controllers
     public class EducationController : Controller
     {
         // GET: Education
-        public ActionResult Index()
+        public ActionResult Education()
         {
-            ViewBag.Degree = "Bachlore of Engineering";
+            ViewBag.DegreeCollege = "LAEC";
+            ViewBag.DegreeStream = "B.E Civil";
+            ViewBag.DegreePercentage = "54%";
+
             ViewBag.SchoolName = "The Mellinium Public School";
             ViewBag.Stream = "SSLC";
             ViewBag.Percentage = "72%";

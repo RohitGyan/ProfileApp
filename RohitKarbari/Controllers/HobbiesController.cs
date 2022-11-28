@@ -9,10 +9,11 @@ namespace RohitKarbari.Controllers
     public class HobbiesController : Controller
     {
         // GET: Hobbies
-        public ActionResult Index()
+        public ActionResult Hobbies()
         {
            //ViewBag.Hobbie = { "Cricket", "travelling", "music", "batminton"};
             return View();
         }
     }
 }
+

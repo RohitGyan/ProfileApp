@@ -21,22 +21,22 @@ namespace RohitKarbari
             routes.MapRoute(
                name: "Education",
                url: "{controller}/{action}/{id}",
-               defaults: new { controller = "Education", action = "Index", id = UrlParameter.Optional }
+               defaults: new { controller = "Education", action = "Education", id = UrlParameter.Optional }
            );
             routes.MapRoute(
                name: "Skills",
                url: "{controller}/{action}/{id}",
-               defaults: new { controller = "Skills", action = "Index", id = UrlParameter.Optional }
+               defaults: new { controller = "Skills", action = "Skills", id = UrlParameter.Optional }
            );
             routes.MapRoute(
               name: "Experience",
               url: "{controller}/{action}/{id}",
-              defaults: new { controller = "Experience", action = "Index", id = UrlParameter.Optional }
+              defaults: new { controller = "Experience", action = "Experience", id = UrlParameter.Optional }
           );
             routes.MapRoute(
               name: "Hobbies",
               url: "{controller}/{action}/{id}",
-              defaults: new { controller = "Hobbies", action = "Index", id = UrlParameter.Optional }
+              defaults: new { controller = "Hobbies", action = "Hobbies", id = UrlParameter.Optional }
           );
         }
     }

@@ -164,10 +164,10 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Education\Index.cshtml" />
-    <Content Include="Views\Skills\Index.cshtml" />
-    <Content Include="Views\Experience\Index.cshtml" />
-    <Content Include="Views\Hobbies\Index.cshtml" />
+    <Content Include="Views\Education\Education.cshtml" />
+    <Content Include="Views\Skills\Skills.cshtml" />
+    <Content Include="Views\Experience\Experience.cshtml" />
+    <Content Include="Views\Hobbies\Hobbies.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
