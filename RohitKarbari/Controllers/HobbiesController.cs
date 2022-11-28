@@ -11,9 +11,9 @@ namespace RohitKarbari.Controllers
         // GET: Hobbies
         public ActionResult Hobbies()
         {
-          ViewBag.Hobbie = new List<string> { "Cricket", "travelling", "music", "batminton"};
-            foreach (var Hobbie in @ViewBag.Hobbie) ;
-            
+            string[] hobbies = new string[4] { "Cricket", "Travelling", "Music", "Batminton" };
+            ViewBag.Hobbies = hobbies;
+
             return View();
         }
     }

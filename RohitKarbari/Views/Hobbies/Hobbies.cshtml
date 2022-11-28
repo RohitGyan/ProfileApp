@@ -3,12 +3,14 @@
     ViewBag.Title = "Index";
 }
 
+
+
 <h2>Hobbies</h2>
 <ul>
-    <li>Cricket</li>
-    <li>Travelling</li>
-    <li>Music</li>
-    <li>Batminton</li>
+    @foreach (string hobbies in ViewBag.Hobbies)
+    {
+        <li>@hobbies</li>
+    }
 </ul>
 
 
