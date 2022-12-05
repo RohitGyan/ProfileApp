@@ -38,6 +38,16 @@ namespace RohitKarbari
               url: "{controller}/{action}/{id}",
               defaults: new { controller = "Hobbies", action = "Hobbies", id = UrlParameter.Optional }
           );
+            routes.MapRoute(
+              name: "Register",
+              url: "{controller}/{action}/{id}",
+              defaults: new { controller = "Register", action = "Register", id = UrlParameter.Optional }
+          );
+            routes.MapRoute(
+              name: "BasicDetails",
+              url: "{controller}/{action}/{id}",
+              defaults: new { controller = "BasicDetails", action = "BasicDetails", id = UrlParameter.Optional }
+          );
         }
     }
 }

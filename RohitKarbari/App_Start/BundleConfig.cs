@@ -25,6 +25,14 @@ namespace RohitKarbari
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+            bundles.Add(new ScriptBundle("~/bundles/education").Include(
+                         "~/Scripts/Education.js"));
+            bundles.Add(new ScriptBundle("~/bundles/qualification").Include(
+                         "~/Scripts/Qualification.js"));
+            bundles.Add(new ScriptBundle("~/bundles/hobbies").Include(
+                         "~/Scripts/Hobbies.js"));
+            bundles.Add(new ScriptBundle("~/bundles/skills").Include(
+                         "~/Scripts/Skills.js"));
         }
     }
 }
