@@ -1,6 +1,18 @@
-﻿body {
-    position: absolute;
-    padding-left: 500px;
+﻿
+
+.demo {
+    margin: 10px;
+    width: 12%;
+    background: linear-gradient(90deg, rgb(128 128 128) 10%, rgb(0 0 0) 50%, rgb(128 128 128) 100%);
+    color: white;
+    font-size: 17px;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    border-radius: 5px;
 }
 
-
+.form {
+    position:absolute;
+    left:600px;
+    top:150px;
+}
