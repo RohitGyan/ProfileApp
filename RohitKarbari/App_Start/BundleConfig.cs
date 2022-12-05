@@ -24,7 +24,7 @@ namespace RohitKarbari
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css","~/Content/Custom.css"));
             bundles.Add(new ScriptBundle("~/bundles/education").Include(
                          "~/Scripts/Education.js"));
             bundles.Add(new ScriptBundle("~/bundles/qualification").Include(
