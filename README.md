@@ -91,3 +91,7 @@ Unlike arrays, the group of objects you work with can grow and shrink dynamicall
 // Create a list of strings. var salmons = new List(); salmons.Add("chinook"); salmons.Add("coho"); salmons.Add("pink"); salmons.Add("sockeye");
 
 // Iterate through the list. foreach (var salmon in salmons) { Console.Write(salmon + " "); } // Output: chinook coho pink sockeye
+
+AREA :
+Areas allows us to separate modules and organize Model, View, Controller, Web.config and Routing registration file into separate sections.
+Area allows us to partition the large application into smaller units where each unit contains a separate MVC folder structure, same as the default MVC folder structure. For example, a large enterprise application may have different modules like admin, finance, HR, marketing, etc. So an Area can contain a separate MVC folder structure for all these modules.
